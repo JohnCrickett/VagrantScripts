@@ -16,5 +16,5 @@ cat >> /home/vagrant/.bashrc <<-BASHRCEND
 PATH=/home/vagrant/miniconda/bin:\$PATH
 BASHRCEND
 
-sudo -su vagrant /home/vagrant/miniconda/bin/conda create -n Py36 python=3.5 --yes
-sudo -su vagrant /home/vagrant/miniconda/bin/conda install -n Py36 numpy scipy pytest flake8 
+sudo -su vagrant /home/vagrant/miniconda/bin/conda create -n Py35 python=3.5 --yes
+sudo -su vagrant /home/vagrant/miniconda/bin/conda install -n Py35 numpy scipy pytest flake8 
